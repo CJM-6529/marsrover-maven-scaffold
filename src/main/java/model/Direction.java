@@ -21,6 +21,4 @@ public enum Direction {
     public String getDesc() {
         return desc;
     }
-
-
 }

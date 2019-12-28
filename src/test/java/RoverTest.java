@@ -59,5 +59,4 @@ public class RoverTest {
         rover.moveForward();
         Assertions.assertThat(rover.getPosition()).isEqualTo("65E");
     }
-
 }

@@ -75,7 +75,6 @@ public class Rover {
         }
     }
 
-
     private void validated() {
         if (startX > area.getPoint().getX()) {
             throw new IllegalArgumentException("长度不在区域内");
@@ -85,6 +84,4 @@ public class Rover {
             throw new IllegalArgumentException("宽度不在区域内");
         }
     }
-
-
 }
